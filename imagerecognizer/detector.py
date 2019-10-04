@@ -29,20 +29,7 @@ while True:
                 id = "elon musk"
             elif (id == 3):
                 id = "narendra modi"
-            elif (id == 8):
-                id = "harsh"
-            cv2.putText(img, str(id), (x, y + h), font, 1, (0, 255, 0), 2)
-            '''elif (id==2):
-                id = "priyanka"
-            elif (id == 3):
-                id = "nikhil"
-            elif (id == 4):
-                id = "prabhat"
-            elif (id == 5):
-                id = "neelam"
-            '''
-            #cv2.putText(img,str(id),(x,y+h),font,1,(0,255,0),2)
-
+            
     cv2.imshow("win",img)
     if cv2.waitKey(1)==ord('q'):
         break
